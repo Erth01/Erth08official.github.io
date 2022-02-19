@@ -1,4 +1,4 @@
-## Welcome to Ert Official Pages
+## Welcome to Ert Official Page
 
 <!doctype html>
 <html>
