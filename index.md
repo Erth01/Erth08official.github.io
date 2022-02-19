@@ -1,6 +1,5 @@
 ## Welcome to Ert Official Page
 
-<!doctype html>
 <html>
 <head>
 	<title> Ert Site</title>
