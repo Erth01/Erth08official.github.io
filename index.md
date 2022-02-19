@@ -8,4 +8,4 @@
 
 	<h1>Ert First Trial</h1>
 
-![eudora](https://user-images.githubusercontent.com/99933986/154784451-353f90e5-fc51-4490-b154-388710ab4ed0.jpg)
+![this is an image](https://user-images.githubusercontent.com/99933986/154784451-353f90e5-fc51-4490-b154-388710ab4ed0.jpg)
