@@ -8,6 +8,4 @@
 
 	<h1>Ert First Trial</h1>
 
-	
-	
-	![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![eudora](https://user-images.githubusercontent.com/99933986/154784451-353f90e5-fc51-4490-b154-388710ab4ed0.jpg)
