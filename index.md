@@ -1,9 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to Ert Official Page
 
-You can use the [editor on GitHub](https://github.com/Erth01/Skyofficial.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<head>
+	<title> Ert Site</title>
+</head>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<h1>Ert First Trial</h1>
 
+<<<<<<< HEAD
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -27,3 +32,6 @@ Syntax highlighted code block
 ```
 
 
+=======
+![true](https://user-images.githubusercontent.com/99933986/154782918-4c6a8332-840c-4483-a7b3-28835fe2b093.jpg)
+>>>>>>> dcf0f68120ca827d4b92747b7dbfad00f57a1439
