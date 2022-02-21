@@ -1,0 +1,151 @@
+body
+{
+	font-family: sans-script;
+	background-image: url(123456.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.container
+{
+	width: 380px;
+	margin: 10% auto;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1,);
+	box-shadow: 0 0 15px;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+	background: #31321;
+	font-family: consolas;
+}
+a
+{
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	color: #0e0f0f;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}	
+a:hover
+{
+	color: #255784;
+	background: #21f3f3;
+	box-shadow: 0 0 10px #21f3f3, 0 0 40px #21f3f3, 0 0 80px #21f3f3;
+	transition-delay: 1s;
+}
+a span
+{
+	position: absolute;
+	display: block;
+}
+a span:nth-child(1)
+{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#21f3f3);
+}	
+a:hover span:nth-child(1)
+{
+	left: 100%;
+	transition: 1s;
+}
+a span:nth-child(3)
+{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent,#21f3f3);
+}	
+a:hover span:nth-child(3)
+{
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+a span:nth-child(2)
+{
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg,transparent,#21f3f3);
+}	
+a:hover span:nth-child(2)
+{
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+a span:nth-child(4)
+{
+	bottom: -100%;
+	left: -0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg,transparent,#21f3f3);
+}	
+a:hover span:nth-child(4)
+{
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial-black;
+	background: 334495e;
+}
+.box
+{
+	width: 300px;
+	padding: 40px;
+	position absolute;
+	top: 50%;
+	left: 50%
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.box h1
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 5000;
+}
+.box input[type = "text"],.box input[type = "password"]
+{	
+		border:10px;
+		background: none;
+		display: red;
+		margin: 5px auto;
+		text-align: center;
+		border: 5px solid #ffd700;
+		padding: 10px 10px;
+		width: 200px;
+		outline: block;
+		color: block;
+		border-radius: 30px;
+		transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+}
