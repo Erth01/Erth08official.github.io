@@ -1,5 +1,22 @@
 body
 {
+	font-family: arial-black;
+	background-image: url(123456.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.container
+{
+	width: 380px;
+	margin: 10% auto;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1,);
+	box-shadow: 0 0 15px;
+}
+body
+{
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -12,9 +29,9 @@ body
 a
 {
 	position: relative;
-	display: inline-block;
+	display: block;
 	padding: 10px 20px;
-	color: #2196f3;
+	color: #0e0f0f;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	text-decoration: none;
@@ -24,9 +41,9 @@ a
 }	
 a:hover
 {
-	color: #255784;
-	background: #2196f3;
-	box-shadow: 0 0 10px #1296f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	color: #000000;
+	background: #21f3f3;
+	box-shadow: 0 0 10px #21f3f3, 0 0 40px #21f3f3, 0 0 80px #21f3f3;
 	transition-delay: 1s;
 }
 a span
@@ -40,7 +57,7 @@ a span:nth-child(1)
 	left: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(90deg,transparent,#2196f3);
+	background: linear-gradient(90deg,transparent,#21f3f3);
 }	
 a:hover span:nth-child(1)
 {
@@ -53,7 +70,7 @@ a span:nth-child(3)
 	right: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(270deg,transparent,#2196f3);
+	background: linear-gradient(270deg,transparent,#21f3f3);
 }	
 a:hover span:nth-child(3)
 {
@@ -67,7 +84,7 @@ a span:nth-child(2)
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg,transparent,#2196f3);
+	background: linear-gradient(180deg,transparent,#21f3f3);
 }	
 a:hover span:nth-child(2)
 {
@@ -81,7 +98,7 @@ a span:nth-child(4)
 	left: -0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(360deg,transparent,#2196f3);
+	background: linear-gradient(360deg,transparent,#21f3f3);
 }	
 a:hover span:nth-child(4)
 {
@@ -93,7 +110,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: arial-black;
 	background: 334495e;
 }
 .box
@@ -104,28 +121,27 @@ body
 	top: 50%;
 	left: 50%
 	transform: translate(-50%,-50%);
-	background: #191919;
 	text-align: center;
 }
 .box h1
 {
-	color: white;
+	color: black;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 5000;
 }
 .box input[type = "text"],.box input[type = "password"]
 {	
-		border:0;
+		border:10px;
 		background: none;
-		display: block;
-		margin: 20px auto;
+		display: red;
+		margin: 5px auto;
 		text-align: center;
-		border: 2px solid #3498db;
-		padding: 14px 10px;
+		border: 5px solid #ffd700;
+		padding: 10px 10px;
 		width: 200px;
-		outline: none;
-		color: white;
-		border-radius: 24px;
+		outline: block;
+		color: block;
+		border-radius: 30px;
 		transition: 0.25s;
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus
